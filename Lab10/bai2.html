@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="https://i.chungta.vn/2017/12/22/LogoFPT-2017-copy-3042-1513928399.jpg"
+        type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+    <link rel="stylesheet" href="./css/bai2.css">
+</head>
+
+<body>
+
+    <form>
+        <div class="form-group">
+            <label>Họ và tên </label>
+            <br>
+            <input class="form-control" type="text" tabindex="1">
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <h4 id="gioitinh">Giới Tính</h4>
+                <input type="radio" name="gender" checked="checked" id="">Nam
+                <input type="radio" name="gender" id="">Nữ
+            </fieldset>
+        </div>
+        <br>
+        <div class="form-group">
+            <label>Ngày sinh</label>
+            <input type="date" class="form-control" name="" id="">
+        </div>
+        <div class="form-group">
+            <label>Điểm</label>
+            <input type="number" class="form-control" name="" min="0" max="10" step="0.25" id="">
+        </div>
+        <div class="form-group">
+            <label>Nghề Nghiệp</label>
+            <input list="jobs" class="form-control">
+            <datalist id="jobs">
+                <option value="Bán Hàng">
+                <option value="Đa cấp">
+                <option value="Giáo Viên">
+                <option value="Sinh Viên">
+                <option value="Lái xe">
+            </datalist>
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <h4 id="sothich">Sở thích</h4>
+                <input type="checkbox" class="square"> Thể thao
+                <input type="checkbox" class="square"> Du lịch
+                <input type="checkbox" class="square"> Âm nhạc
+                <input type="checkbox" class="square"> Ẩm thực
+            </fieldset>
+        </div>
+        <div class="form-group" id="ghichu">
+            <label>Ghi chú</label>
+            <br>
+            <textarea class="form-control" name="" id="" cols="45" rows="5"></textarea>
+        </div>
+        <button><a href="./bai1.html">Đăng ký</a></button>
+        <button><a href="./bai2.html">Nhập lại</a></button>
+    </form>
+
+</body>
+
+</html>

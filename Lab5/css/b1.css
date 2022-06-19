@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+p>img
+{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 0 0 5px red;
+}
+p>img:hover{
+    transition: calc(0.5s);
+    width: 25%;
+    box-shadow: 0 0 20px rgb(0, 255, 98);
+    background-color: rgba(0, 255, 255, 0.541);
+}

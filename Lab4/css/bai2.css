@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.menu {
+    height: 30px;
+}
+
+.menu>a {
+    font-size: 25px;
+    font-variant: small-caps;
+    color: blue;
+    text-decoration: none;ư
+}
+
+.menu>a:visited {
+    color: green;
+}
+
+.menu>a:hover {
+    color: red;
+    text-decoration: underline;
+}

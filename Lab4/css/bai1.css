@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+i{
+    font-variant: small-caps;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+h2{
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+#d1{
+    color: red; 
+ }
+ #d2{
+     color: blue;
+ }
+ #d3{
+     color: green;
+ }
+ #d4{
+     color:red;
+ }
+ b{
+     color:red;
+ }

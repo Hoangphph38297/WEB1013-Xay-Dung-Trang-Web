@@ -1,0 +1,55 @@
+:root {
+    --first-cols: #75B43A;
+    --white-color: #ffffff;
+    --background-color-blue: #3ca7ee;
+    --background-color-pink: #9b408f;
+    --second-cols: #E1F8CB;
+    --red-color:#FF162F;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, var(--background-color-blue), var(--background-color-pink));
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    font-size: 17px;
+}
+
+table {
+    border: 1px dotted aqua;
+    text-align: center;
+    border-radius: 20px;
+    height: 400px;
+    width: 700px;
+    padding: 30px;
+    background-color: var(--white-color);
+}
+
+#hang1 {
+    color: white;
+    background-color: var(--first-cols);
+}
+
+#hang2 {
+    background-color: var(--second-cols);
+}
+
+.chung {
+    border: 1px solid var(--first-cols);
+}
+
+.khoang {
+    border: 1px solid var(--first-cols);
+    width:50px;
+}
+.bold{
+    font-weight: bolder;
+    color: var(--red-color) ;
+}
+.live{
+    font-weight: 100;
+    color: var(--red-color) ;
+}

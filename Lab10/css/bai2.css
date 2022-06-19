@@ -1,0 +1,89 @@
+:root {
+    --background-color-blue: #3ca7ee;
+    --background-color-pink: #9b408f;
+    --background-color-white: #ffffff;
+    --success-color: #2691d9;
+    --error-color: #d92626;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, var(--background-color-blue), var(--background-color-pink));
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.container {
+    background-color: var(--background-color-white);
+}
+#ghichu{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+form {
+    padding: 5%;
+    width: 450px;
+    border-radius: 20px;
+    height: 600px;
+    background-color: var(--background-color-white);
+
+}
+a{
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+fieldset{
+    margin-top: 2%;
+    position: relative;
+    padding-top: 20px;
+    place-content: 0;
+}
+
+.form-control{
+    margin-bottom: 5%;
+    width: 99%;
+    margin-top: 2%;
+}
+#gioitinh{
+    position: absolute;
+    top:-34px;
+    text-align: center;
+    background-color: var(--background-color-white);
+}
+#sothich{
+    position: absolute;
+    top:-34px;
+    text-align: center;
+    background-color: var(--background-color-white);
+}
+
+.form-control:focus{
+    background-color: yellow;
+}
+
+#pass {
+    margin-right: 3px;
+}
+
+input {
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button {
+    color: white;
+    background-color: var(--background-color-blue);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+}

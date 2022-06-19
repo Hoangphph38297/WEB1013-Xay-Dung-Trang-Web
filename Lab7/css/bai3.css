@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url('https://caodang.fpt.edu.vn/wp-content/uploads/FPT_Polytechnic_banner_xet_tuyen_online1.png');
+    margin: 0 auto;
+    background-size: 100%;
+    max-width: 1200px;
+    height: 100vh;
+}
+
+.header>.user {
+    position: relative;
+    float: right;
+    height: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 0 30px white;
+    background-color: rgba(255, 68, 0, 0.952);
+}
+
+.header>.user>ul {
+    width: 350px;
+
+}
+
+.header>.user>ul>li {
+    display: inline;
+    padding: 0 5px
+}
+
+.header>.user>ul>li>a {
+    font-size: 15px;
+    color: white;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.header>.user>ul>li>a:hover {
+    text-decoration: underline;
+    transition: calc(1s);
+    color: black;
+}
+
+.header>.tittle {
+    margin-top: 22%;
+    margin-left: 3%;
+    height: 200px;
+    width: 370px;
+    position: absolute;
+}
+
+#fpt {
+    text-shadow: 0 2px 6px rgb(4, 0, 255);
+    margin-bottom: -7px;
+    font-size: 35px;
+    color: white;
+    font-variant: small-caps;
+}
+
+hr {
+    border: 1px solid blue;
+}
+
+#khauHieu {
+    margin-top: -7px;
+    font-size: 28px;
+    color: rgb(255, 60, 0);
+    font-variant: small-caps;
+}
+
+.header>.nav {
+    margin-top: 35.5%;
+    position: absolute;
+    width: 100%;
+    background-color: orangered;
+}
+
+.header>.nav>.left {
+    margin-left: -3%;
+}
+
+.header>.nav>.left ul li {
+    display: inline;
+    padding: 0 10px;
+
+}
+
+.header>.nav>.right {
+    color: white;
+    right: 0;
+    bottom: 1px;
+    position: absolute;
+}
+
+.header>.nav>.right ul li {
+    display: inline;
+    padding: 0 10px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    transition: calc(1s);
+    text-decoration: underline;
+    color: black;
+}
